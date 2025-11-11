@@ -1,14 +1,15 @@
 Package: mylogit
-Type: Package
-Title: What the Package Does (Title Case)
+Title: Simple Utilities for Logistic Regression Demos
 Version: 0.1.0
-Author: Who wrote it
-Maintainer: The package maintainer <yourself@somewhere.net>
-Description: More about what it does (maybe more than one line)
-    Use four spaces when indenting paragraphs within the Description.
-License: What license is it under?
+Authors@R: 
+    person("Weiying", "Svk", email = "weiyings@umich.edu", role = c("aut", "cre"))
+Description: Tiny example package for Biostat 625 homework. 
+    Provides a toy function 'test625()' and demonstrates package
+    infrastructure and GitHub Actions.
+License: MIT + file LICENSE
 Encoding: UTF-8
-LazyData: true
+Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.3.3
 URL: https://github.com/WeiyingSvk/mylogit
 BugReports: https://github.com/WeiyingSvk/mylogit/issues
+Depends: R (>= 3.5)
